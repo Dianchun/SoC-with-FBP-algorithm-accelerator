@@ -1,0 +1,23 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-446,-148",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port din_V -pg 1 -lvl 0 -x -20 -y 110 -defaultsOSRD
+preplace port dout_V -pg 1 -lvl 2 -x 370 -y 110 -defaultsOSRD
+preplace port filter_clk -pg 1 -lvl 0 -x -20 -y 130 -defaultsOSRD
+preplace port filter_arstn -pg 1 -lvl 0 -x -20 -y 150 -defaultsOSRD
+preplace port ap_start -pg 1 -lvl 0 -x -20 -y 20 -defaultsOSRD
+preplace inst hls_xfft2real_1 -pg 1 -lvl 1 -x 160 -y 90 -defaultsOSRD
+preplace netloc ap_start_1 1 0 1 0 20n
+preplace netloc filter_clk_1 1 0 1 10 110n
+preplace netloc filter_arstn_1 1 0 1 20 130n
+preplace netloc hls_xfft2real_1_dout_V 1 1 1 300 90n
+preplace netloc din_V_1 1 0 1 0 90n
+levelinfo -pg 1 -20 160 370
+pagesize -pg 1 -db -bbox -sgen -140 -160 470 290
+"
+}
+0

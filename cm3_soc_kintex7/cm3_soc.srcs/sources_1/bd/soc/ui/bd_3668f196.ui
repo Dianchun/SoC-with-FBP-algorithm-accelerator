@@ -1,0 +1,90 @@
+{
+   "ActiveEmotionalView":"Reduced Jogs",
+   "Default View_ScaleFactor":"0.581364",
+   "Default View_TopLeft":"-131,-200",
+   "ExpandedHierarchyInLayout":"",
+   "No Loops_ExpandedHierarchyInLayout":"",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port filter_data_output -pg 1 -lvl 6 -x 1620 -y 60 -defaultsOSRD
+preplace port fft_axis_data -pg 1 -lvl 0 -x 0 -y 300 -defaultsOSRD
+preplace port filter_arstn -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port filter_clk -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace inst config_fft_0 -pg 1 -lvl 1 -x 150 -y 60 -swap {4 1 2 3 0 5 6 7 8 9} -defaultsOSRD -pinDir fft_config right -pinY fft_config 180R -pinDir ifft_config right -pinY ifft_config 0R -pinDir clk left -pinY clk 160L -pinDir arstn left -pinY arstn 180L
+preplace inst format_conversion_0 -pg 1 -lvl 4 -x 1110 -y 300 -defaultsOSRD -pinDir filter_dout left -pinY filter_dout 0L -pinDir ifft_input right -pinY ifft_input 0R -pinDir clk left -pinY clk 20L -pinDir arstn left -pinY arstn 60L
+preplace inst xfft_1024 -pg 1 -lvl 2 -x 460 -y 220 -swap {10 1 2 3 4 5 6 7 8 9 0 11 12 13 14 15 16 17 18 19 20 21} -defaultsOSRD -pinDir S_AXIS_DATA left -pinY S_AXIS_DATA 80L -pinDir M_AXIS_DATA right -pinY M_AXIS_DATA 0R -pinDir S_AXIS_CONFIG left -pinY S_AXIS_CONFIG 20L -pinDir aclk left -pinY aclk 100L -pinDir aresetn left -pinY aresetn 120L -pinDir event_frame_started right -pinY event_frame_started 20R -pinDir event_tlast_unexpected right -pinY event_tlast_unexpected 40R -pinDir event_tlast_missing right -pinY event_tlast_missing 60R -pinDir event_status_channel_halt right -pinY event_status_channel_halt 80R -pinDir event_data_in_channel_halt right -pinY event_data_in_channel_halt 100R -pinDir event_data_out_channel_halt right -pinY event_data_out_channel_halt 120R
+preplace inst xfft_inv_1024 -pg 1 -lvl 5 -x 1420 -y 60 -swap {10 1 2 3 4 5 6 7 8 9 0 11 12 13 14 15 16 17 18 19 20 21} -defaultsOSRD -pinDir S_AXIS_DATA left -pinY S_AXIS_DATA 240L -pinDir M_AXIS_DATA right -pinY M_AXIS_DATA 0R -pinDir S_AXIS_CONFIG left -pinY S_AXIS_CONFIG 0L -pinDir aclk left -pinY aclk 260L -pinDir aresetn left -pinY aresetn 360L -pinDir event_frame_started right -pinY event_frame_started 20R -pinDir event_tlast_unexpected right -pinY event_tlast_unexpected 40R -pinDir event_tlast_missing right -pinY event_tlast_missing 60R -pinDir event_status_channel_halt right -pinY event_status_channel_halt 80R -pinDir event_data_in_channel_halt right -pinY event_data_in_channel_halt 100R -pinDir event_data_out_channel_halt right -pinY event_data_out_channel_halt 120R
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 800 -y 120 -defaultsOSRD -pinBusDir dout right -pinBusY dout 0R
+preplace inst hls_xfft2real_1 -pg 1 -lvl 3 -x 800 -y 220 -defaultsOSRD -pinDir din_V left -pinY din_V 0L -pinDir dout_V right -pinY dout_V 80R -pinDir ap_ctrl right -pinY ap_ctrl 100R -pinDir ap_ctrl.ap_start right -pinY ap_ctrl.ap_start 120R -pinDir ap_clk left -pinY ap_clk 100L -pinDir ap_rst_n left -pinY ap_rst_n 120L
+preplace netloc xlconstant_0_dout 1 3 1 940 120n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 5 20 340 260 420 660 420 980 420 N
+preplace netloc aclk_0_1 1 0 5 40 320 280 400 640 400 960 240 1240
+preplace netloc format_conversion_0_ifft_input 1 4 1 N 300
+preplace netloc config_fft_0_fft_config 1 1 1 N 240
+preplace netloc xfft_inv_512_M_AXIS_DATA 1 5 1 N 60
+preplace netloc hls_filter2ifft_0_dout_V 1 3 1 N 300
+preplace netloc xfft_512_M_AXIS_DATA 1 2 1 N 220
+preplace netloc Conn1 1 0 2 NJ 300 NJ
+preplace netloc config_fft_0_ifft_config 1 1 4 NJ 60 NJ 60 NJ 60 N
+levelinfo -pg 1 0 150 460 800 1110 1420 1620
+pagesize -pg 1 -db -bbox -sgen -130 0 1780 480
+",
+   "No Loops_ScaleFactor":"0.496335",
+   "No Loops_TopLeft":"-270,-131",
+   "Reduced Jogs_ExpandedHierarchyInLayout":"",
+   "Reduced Jogs_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port filter_data_output -pg 1 -lvl 6 -x 1580 -y 60 -defaultsOSRD
+preplace port fft_axis_data -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port filter_arstn -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port filter_clk -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace inst config_fft_0 -pg 1 -lvl 1 -x 150 -y 180 -swap {4 1 2 3 0 5 6 7 8 9} -defaultsOSRD -pinY fft_config 20R -pinY ifft_config 0R -pinY clk 0L -pinY arstn 20L
+preplace inst xfft_1024 -pg 1 -lvl 2 -x 460 -y 120 -defaultsOSRD -pinY S_AXIS_DATA 0L -pinY M_AXIS_DATA 20R -pinY S_AXIS_CONFIG 80L -pinY aclk 120L -pinY aresetn 140L -pinY event_frame_started 40R -pinY event_tlast_unexpected 60R -pinY event_tlast_missing 80R -pinY event_status_channel_halt 100R -pinY event_data_in_channel_halt 120R -pinY event_data_out_channel_halt 140R
+preplace inst xfft_inv_1024 -pg 1 -lvl 5 -x 1380 -y 60 -swap {10 1 2 3 4 5 6 7 8 9 0 11 12 13 14 15 16 17 18 19 20 21} -defaultsOSRD -pinY S_AXIS_DATA 80L -pinY M_AXIS_DATA 0R -pinY S_AXIS_CONFIG 0L -pinY aclk 100L -pinY aresetn 400L -pinY event_frame_started 20R -pinY event_tlast_unexpected 40R -pinY event_tlast_missing 60R -pinY event_status_channel_halt 80R -pinY event_data_in_channel_halt 100R -pinY event_data_out_channel_halt 120R
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 460 -y 360 -defaultsOSRD -pinBusY dout 0R
+preplace inst format_conversion_0 -pg 1 -lvl 4 -x 1070 -y 140 -defaultsOSRD -pinY filter_dout 0L -pinY ifft_input 0R -pinY clk 20L -pinY arstn 260L
+preplace inst hls_xfft2real_1 -pg 1 -lvl 3 -x 800 -y 140 -defaultsOSRD -pinY din_V 0L -pinY dout_V 0R -pinY ap_ctrl 200L -pinY ap_ctrl.ap_start 220L -pinY ap_clk 240L -pinY ap_rst_n 260L
+preplace netloc xlconstant_0_dout 1 2 1 NJ 360
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 5 20 280 280 440 660 460 940 460 N
+preplace netloc aclk_0_1 1 0 5 40 260 260 420 640 80 940 80 1200
+preplace netloc format_conversion_0_ifft_input 1 4 1 N 140
+preplace netloc config_fft_0_fft_config 1 1 1 N 200
+preplace netloc xfft_inv_512_M_AXIS_DATA 1 5 1 N 60
+preplace netloc xfft_512_M_AXIS_DATA 1 2 1 N 140
+preplace netloc Conn1 1 0 2 NJ 120 NJ
+preplace netloc config_fft_0_ifft_config 1 1 4 260 60 NJ 60 NJ 60 NJ
+preplace netloc hls_filter2ifft_0_dout_V 1 3 1 N 140
+levelinfo -pg 1 0 150 460 800 1070 1380 1580
+pagesize -pg 1 -db -bbox -sgen -130 0 1740 520
+",
+   "Reduced Jogs_ScaleFactor":"0.506952",
+   "Reduced Jogs_TopLeft":"-659,-284",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port filter_data_output -pg 1 -lvl 7 -x 1910 -y 200 -defaultsOSRD
+preplace port fft_axis_data -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port filter_arstn -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port filter_clk -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace inst xfft_512 -pg 1 -lvl 2 -x 450 -y 120 -defaultsOSRD
+preplace inst format_conversion_0 -pg 1 -lvl 5 -x 1380 -y 390 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 450 -y 310 -defaultsOSRD
+preplace inst hls_xfft2real_0 -pg 1 -lvl 3 -x 800 -y 370 -defaultsOSRD
+preplace inst hls_filter2ifft_0 -pg 1 -lvl 4 -x 1100 -y 370 -defaultsOSRD
+preplace inst xfft_inv_512 -pg 1 -lvl 6 -x 1710 -y 260 -defaultsOSRD
+preplace inst config_fft_0 -pg 1 -lvl 1 -x 140 -y 240 -defaultsOSRD
+preplace netloc xlconstant_0_dout 1 2 2 660 270 940
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 6 30 170 270 240 640 260 950 270 1240 480 1530
+preplace netloc aclk_0_1 1 0 6 20 160 260 370 630 470 960 470 1250 470 1520
+preplace netloc xfft_512_M_AXIS_DATA 1 2 1 650 60n
+preplace netloc config_fft_0_fft_config 1 1 1 250 110n
+preplace netloc hls_filter2ifft_0_dout_V 1 4 1 N 370
+preplace netloc format_conversion_0_ifft_input 1 5 1 1510 230n
+preplace netloc hls_xfft2real_0_dout_V 1 3 1 N 370
+preplace netloc config_fft_0_ifft_config 1 1 5 N 250 NJ 250 NJ 250 NJ 250 NJ
+preplace netloc xfft_inv_512_M_AXIS_DATA 1 6 1 N 200
+preplace netloc Conn1 1 0 2 NJ 90 NJ
+levelinfo -pg 1 0 140 450 800 1100 1380 1710 1910
+pagesize -pg 1 -db -bbox -sgen -130 0 2070 490
+"
+}
+0

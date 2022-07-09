@@ -1,0 +1,68 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ; Copyright:
+    2 00000000         ; ------------------------------------------------------
+                       ----------
+    3 00000000         ; This confidential and proprietary software may be used
+                        only as
+    4 00000000         ; authorised by a licensing agreement from ARM Limited
+    5 00000000         ;   (C) COPYRIGHT 2019 ARM Limited
+    6 00000000         ;       ALL RIGHTS RESERVED
+    7 00000000         ; The entire notice above must be reproduced on all auth
+                       orised
+    8 00000000         ; copies and copies may only be made to the extent permi
+                       tted
+    9 00000000         ; by a licensing agreement from ARM Limited.
+   10 00000000         ; ------------------------------------------------------
+                       ----------
+   11 00000000         ; File:     atomic.c
+   12 00000000         ; Release Information : Cortex-M3 DesignStart-r0p0-00rel
+                       0
+   13 00000000         ; ------------------------------------------------------
+                       ----------
+   14 00000000         
+   15 00000000                 EXPORT           atomic_test
+   16 00000000                 AREA             |.text|, CODE, READONLY
+   17 00000000         
+   18 00000000         ; uint32_t atomic_test(uint32_t *mem, uint32_t val) 
+   19 00000000         ; Atomic load/store, discarding the read value
+   20 00000000         atomic_test
+   21 00000000 4602            mov              r2, r0      ;
+   22 00000002 E852 3F00       ldrex            r3,[r2]     ;
+   23 00000006 E842 1000       strex            r0,r1,[r2]  ;
+   24 0000000A 4770            bx               lr          ;
+   25 0000000C                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\atomic_asm.d -o.\objects\atomic_asm.o -I.\RTE\_m3_for_ar
+ty_a7 -ID:\yf105\keil5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include -ID:\yf105\keil
+5\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include --predefine="__UVISION_VERSIO
+N SETA 536" --predefine="_RTE_ SETA 1" --predefine="ARMCM3 SETA 1" --predefine=
+"_RTE_ SETA 1" --list=.\objects\atomic_asm.lst ..\main\atomic_asm.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 16 in file ..\main\atomic_asm.s
+   Uses
+      None
+Comment: .text unused
+atomic_test 00000000
+
+Symbol: atomic_test
+   Definitions
+      At line 20 in file ..\main\atomic_asm.s
+   Uses
+      At line 15 in file ..\main\atomic_asm.s
+Comment: atomic_test used once
+2 symbols
+335 symbols in table
