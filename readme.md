@@ -5,4 +5,6 @@ In this thesis, a Radon image reconstruction SoC system based on Arm Cortex-M3 p
 
 The experimental results show that the SoC system designed in this thesis, based on the implementation of 60 pipeline parallel back-projection computing accelerators, can reconstruct the projection data of size 729×180 into an image of size 512×512, which only takes 7.13ms of time. It can reach a real-time processing frame rate of 140Hz, the output results are almost exactly the same as those calculated by MATLAB, and the structural similarity (SSIM) is as high as 0.9995.
 
+![SoC Project Sch](https://github.com/Dianchun/SoC-with-FBP-algorithm-accelerator/blob/main/img/5.jpg)
+
 
