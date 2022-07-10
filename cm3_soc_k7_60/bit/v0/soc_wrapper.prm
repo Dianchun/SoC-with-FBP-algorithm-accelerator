@@ -1,0 +1,14 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+Checksum           0xB06DB763
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)                                                  Checksum
+0x00000000    0x0057D66B    Apr 17 13:45:13 2022    G:/soc/cm3_soc_k7/cm3_soc.runs/impl_1/soc_wrapper.bit    0x09EC4CF7
+File Checksum Total                                                                                          0x09EC4CF7

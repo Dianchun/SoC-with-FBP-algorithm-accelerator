@@ -1,0 +1,48 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.577512",
+   "Default View_TopLeft":"-255,-118",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port img_axi_mem -pg 1 -lvl 5 -x 1660 -y 460 -defaultsOSRD
+preplace port angle_axi_mem -pg 1 -lvl 5 -x 1660 -y 240 -defaultsOSRD
+preplace port acc_clk -pg 1 -lvl 0 -x -60 -y 250 -defaultsOSRD
+preplace port img_base_addr_valid -pg 1 -lvl 0 -x -60 -y 490 -defaultsOSRD
+preplace port start_fbp -pg 1 -lvl 0 -x -60 -y 530 -defaultsOSRD
+preplace port finsh_fbp -pg 1 -lvl 5 -x 1660 -y 480 -defaultsOSRD
+preplace port angle_base_addr_valid -pg 1 -lvl 0 -x -60 -y 230 -defaultsOSRD
+preplace port rstn -pg 1 -lvl 0 -x -60 -y 330 -defaultsOSRD
+preplace portBus img_base_addr -pg 1 -lvl 0 -x -60 -y 510 -defaultsOSRD
+preplace portBus angle_base_addr -pg 1 -lvl 0 -x -60 -y 210 -defaultsOSRD
+preplace portBus axi_mem_error -pg 1 -lvl 5 -x 1660 -y 70 -defaultsOSRD
+preplace inst filter_unit -pg 1 -lvl 3 -x 960 -y 430 -defaultsOSRD
+preplace inst acc_reset -pg 1 -lvl 1 -x 130 -y 350 -defaultsOSRD
+preplace inst and_logic -pg 1 -lvl 4 -x 1410 -y 70 -defaultsOSRD
+preplace inst read_data_unit_0 -pg 1 -lvl 2 -x 520 -y 260 -defaultsOSRD
+preplace inst backproject_0 -pg 1 -lvl 4 -x 1410 -y 500 -defaultsOSRD
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 3 310 390 750 350 1130J
+preplace netloc backproject_0_start_one_new_txn_angle_data 1 1 4 320 370 730J 340 NJ 340 1620
+preplace netloc backproject_0_get_next_angle 1 1 4 330 380 720J 330 NJ 330 1630
+preplace netloc read_data_unit_0_one_angle_txn_done 1 2 2 NJ 260 1140
+preplace netloc read_data_unit_0_txn_rd_done 1 2 2 NJ 280 1120
+preplace netloc backproject_0_m00_axi_mem_error 1 3 2 1140 140 1640
+preplace netloc read_data_unit_0_m00_axi_mem_error 1 2 2 720J 60 N
+preplace netloc aclk_0_1 1 0 4 -40 250 300 400 730 500 1110J
+preplace netloc img_base_addr_valid_0_1 1 0 4 NJ 490 NJ 490 720J 510 1130J
+preplace netloc img_base_addr_0_1 1 0 4 NJ 510 NJ 510 710J 520 1150J
+preplace netloc start_fbp_0_1 1 0 4 NJ 530 NJ 530 NJ 530 NJ
+preplace netloc backproject_0_finsh_fbp 1 4 1 NJ 480
+preplace netloc angle_base_addr_0_1 1 0 2 NJ 210 NJ
+preplace netloc angle_base_addr_valid_0_1 1 0 2 NJ 230 NJ
+preplace netloc ext_reset_in_0_1 1 0 1 NJ 330
+preplace netloc util_vector_logic_0_Res 1 4 1 NJ 70
+preplace netloc backproject_0_m00_axi_mem 1 4 1 NJ 460
+preplace netloc read_data_unit_0_m00_axi_mem 1 2 3 NJ 240 NJ 240 NJ
+preplace netloc read_data_unit_0_m_axis 1 2 1 740 220n
+preplace netloc xfft_inv_512_M_AXIS_DATA 1 3 1 N 430
+levelinfo -pg 1 -60 130 520 960 1410 1660
+pagesize -pg 1 -db -bbox -sgen -260 -60 1840 950
+"
+}
+0

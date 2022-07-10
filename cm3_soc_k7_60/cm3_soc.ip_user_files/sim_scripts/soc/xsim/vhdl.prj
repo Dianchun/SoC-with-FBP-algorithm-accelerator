@@ -1,0 +1,15 @@
+vhdl xil_defaultlib  \
+"../../../bd/soc/ip/soc_xfft_0_0/sim/soc_xfft_0_0.vhd" \
+"../../../bd/soc/ip/soc_xfft_0_1/sim/soc_xfft_0_1.vhd" \
+"../../../bd/soc/ip/soc_proc_sys_reset_0_0/sim/soc_proc_sys_reset_0_0.vhd" \
+"../../../bd/soc/ip/soc_util_ds_buf_1_0/util_ds_buf.vhd" \
+"../../../bd/soc/ip/soc_util_ds_buf_1_0/sim/soc_util_ds_buf_1_0.vhd" \
+"../../../bd/soc/ip/soc_axi_gpio_0_0/sim/soc_axi_gpio_0_0.vhd" \
+"../../../bd/soc/ip/soc_axi_gpio_0_1/sim/soc_axi_gpio_0_1.vhd" \
+"../../../bd/soc/ip/soc_axi_gpio_0_2/sim/soc_axi_gpio_0_2.vhd" \
+"../../../bd/soc/ip/soc_axi_timer_0_0/sim/soc_axi_timer_0_0.vhd" \
+"../../../bd/soc/ip/soc_axi_uartlite_0_0/sim/soc_axi_uartlite_0_0.vhd" \
+"../../../bd/soc/ip/soc_proc_sys_reset_0_1/sim/soc_proc_sys_reset_0_1.vhd" \
+"../../../bd/soc/ip/soc_proc_sys_reset_1_0/sim/soc_proc_sys_reset_1_0.vhd" \
+
+nosort

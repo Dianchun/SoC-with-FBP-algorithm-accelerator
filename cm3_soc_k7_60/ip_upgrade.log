@@ -1,0 +1,909 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon May 16 22:18:04 2022
+| Host         : YF105-SERVER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_hls_xfft2real_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of soc_hls_xfft2real_1_0 (xilinx.com:hls:hls_xfft2real:1.0) from (Rev. 2005141306) to (Rev. 2005081050)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat May 14 19:25:53 2022
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_hls_xfft2real_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of soc_hls_xfft2real_1_0 (xilinx.com:hls:hls_xfft2real:1.0) from (Rev. 2005081050) to (Rev. 2005141306)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May  8 10:53:24 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_hls_xfft2real_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of soc_hls_xfft2real_1_0 (xilinx.com:hls:hls_xfft2real:1.0) from (Rev. 2005071739) to (Rev. 2005081050)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'soc_hls_xfft2real_1_0'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 'din_V_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu May  7 18:13:01 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_hls_xfft2real_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of soc_hls_xfft2real_1_0 (xilinx.com:hls:hls_xfft2real:1.0) from (Rev. 2004251805) to (Rev. 2005071739)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 26 17:57:55 2022
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_hls_xfft2real_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of soc_hls_xfft2real_1_0 (xilinx.com:hls:hls_xfft2real:1.0) from (Rev. 2004142216) to (Rev. 2004251805)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_xlconstant_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_xlconstant_1_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 7)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_xlconstant_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_xlconstant_0_1 (xilinx.com:ip:xlconstant:1.1 (Rev. 7)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 7)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_xfft_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_xfft_0_1 (xilinx.com:ip:xfft:9.1 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_xfft_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_xfft_0_0 (xilinx.com:ip:xfft:9.1 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_util_vector_logic_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_util_vector_logic_0_2 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_util_vector_logic_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_util_vector_logic_0_1 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_util_vector_logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_util_vector_logic_0_0 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_swdio_tri_buffer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_swdio_tri_buffer_0_0 (xilinx.com:module_ref:swdio_tri_buffer:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_proc_sys_reset_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_proc_sys_reset_1_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_proc_sys_reset_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_proc_sys_reset_0_1 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_proc_sys_reset_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_format_conversion_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_format_conversion_0_0 (xilinx.com:module_ref:format_conversion:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_config_fft_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_config_fft_0_0 (xilinx.com:module_ref:config_fft:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_axi_uartlite_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_axi_uartlite_0_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 26)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_axi_timer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_axi_timer_0_0 (xilinx.com:ip:axi_timer:2.0 (Rev. 24)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_axi_interconnect_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_axi_interconnect_0_2 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_axi_interconnect_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_axi_interconnect_0_1 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_axi_interconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_axi_interconnect_0_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_axi_gpio_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_axi_gpio_0_2 (xilinx.com:ip:axi_gpio:2.0 (Rev. 24)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_axi_gpio_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_axi_gpio_0_1 (xilinx.com:ip:axi_gpio:2.0 (Rev. 24)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 24)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_acc_configurator_v1_0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_acc_configurator_v1_0_0_0 (xilinx.com:module_ref:acc_configurator_v1_0:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:46 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'soc_CORTEXM3_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of soc_CORTEXM3_AXI_0_0 (Arm.com:CortexM:CORTEXM3_AXI:1.1 (Rev. 38)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:20 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_64x512_32x1024'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of fifo_64x512_32x1024 (xilinx.com:ip:fifo_generator:13.2 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:20 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_64x512'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of fifo_64x512 (xilinx.com:ip:fifo_generator:13.2 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:20 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_32x1024_64x512'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of fifo_32x1024_64x512 (xilinx.com:ip:fifo_generator:13.2 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:19 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_32bit'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of blk_mem_32bit (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:19 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_24bit_sintheta'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of blk_mem_24bit_sintheta (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 14 22:30:18 2020
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k325tffg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_24bit_costheta'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of blk_mem_24bit_costheta (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 12 11:50:25 2022
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_64x512_32x1024'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of fifo_64x512_32x1024 (xilinx.com:ip:fifo_generator:13.2 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 12 11:50:25 2022
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_64x512'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of fifo_64x512 (xilinx.com:ip:fifo_generator:13.2 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 12 11:50:24 2022
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_32x1024_64x512'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of fifo_32x1024_64x512 (xilinx.com:ip:fifo_generator:13.2 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 12 11:50:24 2022
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_32bit'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of blk_mem_32bit (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 12 11:50:23 2022
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_24bit_sintheta'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of blk_mem_24bit_sintheta (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Apr 12 11:50:22 2022
+| Host         : DESKTOP-L1H3OJ0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_24bit_costheta'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of blk_mem_24bit_costheta (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
