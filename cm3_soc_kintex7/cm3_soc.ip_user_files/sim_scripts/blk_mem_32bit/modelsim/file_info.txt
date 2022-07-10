@@ -1,2 +1,0 @@
-blk_mem_32bit.v,verilog,xil_defaultlib,../../../../cm3_soc.gen/sources_1/ip/blk_mem_32bit/sim/blk_mem_32bit.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v
