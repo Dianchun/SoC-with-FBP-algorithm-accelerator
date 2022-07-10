@@ -7,4 +7,19 @@ The experimental results show that the SoC system designed in this thesis, based
 
 ![SoC Project Sch](https://github.com/Dianchun/SoC-with-FBP-algorithm-accelerator/blob/main/img/5.jpg)
 
+## SoC Architecture
+![SoC Architecture](https://github.com/Dianchun/SoC-with-FBP-algorithm-accelerator/blob/main/img/1.jpg)
+
+## Accelerator Design
+![SoC Architecture](https://github.com/Dianchun/SoC-with-FBP-algorithm-accelerator/blob/main/img/2.jpg)
+
+## Design Flow
+![SoC Architecture](https://github.com/Dianchun/SoC-with-FBP-algorithm-accelerator/blob/main/img/3.jpg)
+
+## Result
+![SoC Architecture](https://github.com/Dianchun/SoC-with-FBP-algorithm-accelerator/blob/main/img/4.jpg)
+
+
+
+
 
